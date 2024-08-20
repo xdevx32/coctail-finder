@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.cocktail-form {
+  margin-bottom: 20px;
+}
+
+.cocktail-form input,
+.cocktail-form button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  position: relative;
+}
+
+.modal h2 {
+  margin-top: 0;
+}
+
+.modal img {
+  margin: 10px 0;
+}
+
+.modal ul {
+  list-style-type: none;
+  padding: 0;
+}
