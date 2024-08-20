@@ -108,7 +108,7 @@ input:checked + .slider:before {
   border-radius: 15px;
   width: 100%;
   max-width: 500px;
-  margin: auto;
+  margin: 20px auto;
   top: 50%;
   transform: translateY(-50%);
   position: relative;
@@ -148,8 +148,9 @@ button {
   }
 
   .modal {
-    width: 95%;
+    width: calc(100% - 24px);
     padding: 20px;
+    margin: 20px 12px;
   }
 
   .modal h2 {
@@ -165,7 +166,8 @@ button {
 
   .modal {
     padding: 20px;
-    width: 90%;
+    width: calc(100% - 24px);
+    margin: 20px 12px;
   }
 
   .modal h2 {
