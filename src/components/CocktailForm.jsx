@@ -32,9 +32,9 @@ function CocktailForm({ onFetchCocktail }) {
         type="text"
         value={cocktailName}
         onChange={(e) => setCocktailName(e.target.value)}
-        placeholder="Enter cocktail name"
+        placeholder="Enter cocktail ingredient and the cocktail finder will surprise you 🪄"
       />
-      <button type="submit">Find Cocktail</button>
+      <button type="submit">🪄🪄🪄</button>
     </form>
   );
 }
